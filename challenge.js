@@ -47,7 +47,6 @@ function question1() {
         }, 0)
     console.timeEnd('santa-time');
     console.log('Floor: ', answer);
-
     })
 }
 
