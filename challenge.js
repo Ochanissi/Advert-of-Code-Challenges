@@ -45,8 +45,10 @@ function question1() {
                 return acc--;
             }
         }, 0)
+
     console.timeEnd('santa-time');
     console.log('Floor: ', answer);
+
     })
 }
 
@@ -71,8 +73,10 @@ function question2() {
             counter++;
             return accumulator < 0;
         })
+
         console.timeEnd('santa-time');
         console.log('basement entered at: ', counter);
+        
     })
 }
 
